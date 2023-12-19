@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-      // Une boutique propose à ses clients, une réduction de 15% 
-      // pour les montants d’achat supérieurs à 200 Euros. 
-      // Écrire un programme en Java permettant de saisir le 
-      // prix total HT et de calculer le  montant TTC en prenant 
-      // en compte la réduction et la TVA=20%. 
+        // Une boutique propose à ses clients, une réduction de 15%
+        // pour les montants d’achat supérieurs à 200 Euros.
+        // Écrire un programme en Java permettant de saisir le
+        // prix total HT et de calculer le montant TTC en prenant
+        // en compte la réduction et la TVA=20%.
 
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Quel est le montant total de vos achats HT ?\n");
         int total_HT = scanner.nextInt();
@@ -25,6 +25,6 @@ public class App {
 
         System.out.println("Le montant total TTC de vos achats sera de : " + total_TTC);
         scanner.close();
-        
-}
+
+    }
 }

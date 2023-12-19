@@ -15,7 +15,7 @@ public class App {
         int age = scanner.nextInt();
 
         String section = switch (age) {
-            case 1, 2, 3, 4, 5 -> "Catégorie non trouvable.";
+            case 1, 2, 3, 4, 5 -> "Catégorie non spécifiée.";
             case 6, 7 -> "Catégorie poussin";
             case 8, 9 -> "Catégorie pupille";
             case 10, 11 -> "Catégorie minime";
