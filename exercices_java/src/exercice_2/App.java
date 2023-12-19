@@ -7,8 +7,9 @@ public class App {
         int sum = 0;
 
         for (int i = 0; i < tab.length; i++) {
-           sum += tab[i]; 
-        };
+            sum += tab[i];
+        }
+        ;
         System.out.println("La somme de la table est de : " + sum);
     }
 }

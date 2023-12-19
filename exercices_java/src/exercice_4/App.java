@@ -1,5 +1,7 @@
 package exercice_4;
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
       // Une boutique propose à ses clients, une réduction de 15% 
@@ -7,5 +9,22 @@ public class App {
       // Écrire un programme en Java permettant de saisir le 
       // prix total HT et de calculer le  montant TTC en prenant 
       // en compte la réduction et la TVA=20%. 
+
+    Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Quel est le montant total de vos achats HT ?\n");
+        int total_HT = scanner.nextInt();
+
+        if (total_HT >= 200) {
+            int prix_remise = total_HT - (total_HT * 15 / 100);
+            total_HT = prix_remise;
+            System.out.println("Une réduction de 15% a été appliquée sur vos achats.");
+        }
+
+        int total_TTC = total_HT + (total_HT * 20 / 100);
+
+        System.out.println("Le montant total TTC de vos achats sera de : " + total_TTC);
+        scanner.close();
+        
 }
 }
