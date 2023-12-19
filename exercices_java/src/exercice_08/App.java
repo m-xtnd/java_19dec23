@@ -27,10 +27,8 @@ public class App {
             if (tab[i] % 2 == 0) {
                 numero_pair++;
             }
-        }
 
-        for (int i = 0; i < tab.length; i++) {
-            if (tab[i] % 2 != 0) {
+            else if (tab[i] % 2 != 0) {
                 numero_impair++;
             }
         }
@@ -45,10 +43,13 @@ public class App {
         int iT2 = 0;
 
         for (int x = 0; x < 10; x++) {
-            if (tab[x] % 2 == 0)
+            if (tab[x] % 2 == 0) {
                 T1[iT1++] = tab[x];
-            else
+            } 
+            
+            else {
                 T2[iT2++] = tab[x];
+            }
         }
         ;
 

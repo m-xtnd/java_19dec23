@@ -20,6 +20,7 @@ public class App {
                     System.out.println("|   ^   |");
                     System.out.println("|  '-'  |");
                     System.out.println(" +-----+");
+                    scanner.close();
                     return;
                 case "non":
                     System.out.println("Vous ratez quelque chose...");

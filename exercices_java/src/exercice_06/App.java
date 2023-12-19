@@ -28,8 +28,10 @@ public class App {
         System.out.println("Soustraction : " + soustraire);
         if (chiffre_deux == 0) {
             System.out.println("Division par zéro impossible.");
-        }
-        else {System.out.println("Division :" + diviser);
+        } 
+        
+        else {
+            System.out.println("Division :" + diviser);
         }
         System.out.println("Reste : " + reste);
         scanner.close();

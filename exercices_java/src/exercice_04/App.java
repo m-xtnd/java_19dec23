@@ -15,7 +15,7 @@ public class App {
         System.out.println("Quel est le montant total de vos achats HT ?\n");
         float total_HT = scanner.nextFloat();
 
-        if (total_HT >= 200.00) {
+        if (total_HT >= 200) {
             float prix_remise = total_HT - (total_HT * 15 / 100);
             total_HT = prix_remise;
             System.out.println("Une réduction de 15% a été appliquée sur vos achats.");
