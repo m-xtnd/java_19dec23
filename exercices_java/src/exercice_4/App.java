@@ -13,15 +13,15 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Quel est le montant total de vos achats HT ?\n");
-        int total_HT = scanner.nextInt();
+        float total_HT = scanner.nextFloat();
 
-        if (total_HT >= 200) {
-            int prix_remise = total_HT - (total_HT * 15 / 100);
+        if (total_HT >= 200.00) {
+            float prix_remise = total_HT - (total_HT * 15 / 100);
             total_HT = prix_remise;
             System.out.println("Une réduction de 15% a été appliquée sur vos achats.");
         }
 
-        int total_TTC = total_HT + (total_HT * 20 / 100);
+        float total_TTC = total_HT + (total_HT * 20 / 100);
 
         System.out.println("Le montant total TTC de vos achats sera de : " + total_TTC);
         scanner.close();
