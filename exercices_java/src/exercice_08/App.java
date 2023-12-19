@@ -1,4 +1,4 @@
-package exercice_8;
+package exercice_08;
 
 import java.util.Arrays;
 import java.util.Scanner;

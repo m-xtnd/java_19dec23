@@ -1,4 +1,4 @@
-package exercice_9;
+package exercice_09;
 
 public class App {
     public static void main(String[] args) throws Exception {
