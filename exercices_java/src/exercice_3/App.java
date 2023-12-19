@@ -12,7 +12,7 @@ public class App {
         System.out.println("Premier entier ?\n");
         int premier_entier = scanner.nextInt();
 
-        System.out.println("Premier entier ?\n");
+        System.out.println("Second entier ?\n");
         int second_entier = scanner.nextInt();
 
         int reserve = premier_entier;
